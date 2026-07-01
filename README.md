@@ -36,6 +36,14 @@
   - PostgreSQL.
  
  ## 💼 Мои проекты:
+
+ ### 📒 Проекты Экосистема Альфа
+Здесь представлены некоторые проекты (не нарушающие NDA и получившие разрешение на добавление в портфолио), выполнявшиеся в рамках стажировки в компании [Экосистема Альфа](https://www.linkedin.com/company/esalfa/posts/?feedView=all).
+
+|Название| Направление деятельности | Описание | Стек |
+|-------------|-------------|-------------|-------------|
+|[Риски беременных](https://github.com/Tairilin/Alfa_projects/tree/main/Risk%20of%20pregnancy)|EDA, Классическое машинное обучение|В данном проекте было необходимо на основании полученных данных создать прогностическую модель рисков беременных с самостоятельным выбором метрики и выводом в последних ячейках метрики и матрицы ошибок на трейне и тесте.|`Google Colab`, `python`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `DummyRegressor`, `LogisticRegression`, `DecisionTreeRegressor`, `RandomForestRegressor`, `KNeighborsClassifier`,  `SVC`, `CatBoostClassifier`, `LGBMClassifier` |
+|[Потребление электричества в Португалии](https://github.com/Tairilin/Alfa_projects/tree/main/Electricity_Load_Diagrams_20112014)|EDA, Временные ряды, Классическое машинное обучение|В данном проекте было необходимо на основании полученных данных создать прогностическую энергопротребления с самостоятельным выбором метрики|`Google Colab`, `python`, `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `sklearn`, `DecisionTreeRegressor`, `RandomForestRegressor`, `XGBoost`, `Prophet`, `time`|
   
  ### 📒 Проекты Practicum DS+
 
@@ -58,12 +66,3 @@
 |[Компьютерное зрение: Определение возраста покупателей](https://github.com/Tairilin/Practicum_projects/blob/main/Computer_vision_Age_of_customer)    | EDA, Компьютерное зрение    | Сетевой супермаркет «Хлеб-Соль» внедряет систему компьютерного зрения для обработки фотографий покупателей. Фотофиксация в прикассовой зоне поможет определять возраст клиентов, чтобы: 1. Анализировать покупки и предлагать товары, которые могут заинтересовать покупателей этой возрастной группы; 2. Контролировать добросовестность кассиров при продаже алкоголя. Необходимо построить модель, которая по фотографии определит приблизительный возраст человека. В нашем распоряжении набор фотографий людей с указанием возраста, в статье о котором значение MAE равно 5.4.    | `Google Colab`, `Jupyter Notebook`, `python`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `keras`    |
 |[Сборный проект 5: Подбор изображения по описанию](https://github.com/Tairilin/Practicum_projects/tree/main/Prefabricated_project_5_Search_image)    | EDA, Классическое машинное обучение, Нейронные сети    | Необходимо разработать демонстрационную версию поиска изображений по запросу c учитом юридических ограничений, действующих в некоторых странах.  | `Google Colab`, `python`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `tqdm`, `math`, `time`, `sklearn`, `DummyRegressor`, `DecisionTreeRegressor`, `CatBoostClassifier`, `LGBMClassifier`, `torch`, `torchvision`, `transformers`, `clip-ViT-B-32`  |
 |[Выпускной проект: Теледом](https://github.com/Tairilin/Practicum_projects/tree/main/Выпускной_Теледом)    | EDA, Классическое машинное обучение, Нейронные сети    | Оператор связи «ТелеДом» хочет бороться с оттоком клиентов. Для этого его сотрудники начнут предлагать промокоды и специальные условия всем, кто планирует отказаться от услуг связи. Чтобы заранее находить таких пользователей, «ТелеДому» нужна модель, которая будет предсказывать, разорвёт ли абонент договор. Команда оператора собрала персональные данные о некоторых клиентах, информацию об их тарифах и услугах. Моя задача — обучить на этих данных модель для прогноза оттока клиентов.    | `Google Colab`, `SQL`, `sqlalchemy`, `python`, `pandas`, `numpy`, `matplotlib`, `missingno`, `seaborn`, `tqdm`, `phik`, `sklearn`, `DummyClassifier`, `RandomForestClassifier`, `CatBoostClassifier`, `LGBMClassifier`, `torch`, `shap`    |
-
-### 📒 Проекты Экосистема Альфа
-Здесь представлены некоторые проекты (не нарушающие NDA и разрешение на добавление к портфолио которых было получено), выполнявшиеся в рамках стажировки в компании [Экосистема Альфа](https://www.linkedin.com/company/esalfa/posts/?feedView=all).
-
-|Название| Направление деятельности | Описание | Стек |
-|-------------|-------------|-------------|-------------|
-|[Риски беременных](https://github.com/Tairilin/Alfa_projects/tree/main/Risk%20of%20pregnancy)|EDA, Классическое машинное обучение|В данном проекте было необходимо на основании полученных данных создать прогностическую модель рисков беременных с самостоятельным выбором метрики и выводом в последних ячейках метрики и матрицы ошибок на трейне и тесте.|`Google Colab`, `python`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `DummyRegressor`, `LogisticRegression`, `DecisionTreeRegressor`, `RandomForestRegressor`, `KNeighborsClassifier`,  `SVC`, `CatBoostClassifier`, `LGBMClassifier` |
-|[Потребление электричества в Португалии](https://github.com/Tairilin/Alfa_projects/tree/main/Electricity_Load_Diagrams_20112014)|EDA, Временные ряды, Классическое машинное обучение|В данном проекте было необходимо на основании полученных данных создать прогностическую энергопротребления с самостоятельным выбором метрики|`Google Colab`, `python`, `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `sklearn`, `DecisionTreeRegressor`, `RandomForestRegressor`, `XGBoost`, `Prophet`, `time`|
-
